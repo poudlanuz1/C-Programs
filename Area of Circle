@@ -8,5 +8,6 @@ int main(){
 	printf("Enter the radius of circle:");
 	scanf("%d",&radius);
 	area=Pi*pow(radius,2);
+	printf("The area of Circle is:%.2f",area);
 	return 0;	
 }
