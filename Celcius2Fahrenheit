@@ -1,0 +1,11 @@
+//WAP to convert Celcius to Fahrenheit in C.
+#include <stdio.h>
+int main(){
+	int Celcius;
+	float Fahrenheit;
+	printf("Enter the temperature in Celcius:");
+	scanf("%d",&Celcius);
+	Fahrenheit=((180*Celcius)/100.0)+32;
+	printf("The temperature in Fahrenheit is:%.1f",Fahrenheit);
+	return 0;	
+}
