@@ -1,0 +1,15 @@
+//WAP to check greatest of two entered numbers in C.
+#include <stdio.h>
+int main(){
+	float a,b;
+	printf("Enter the first number:");
+	scanf("%f",&a);
+	printf("Enter the second number:");
+	scanf("%f",&b);
+	if (a==b){
+	printf("The numbers are same.");}
+	else{
+	(a>b)?printf("%.2f is greatest.\n",a):printf("%.2f is greatest.\n",b);
+}
+	return 0;	
+}
