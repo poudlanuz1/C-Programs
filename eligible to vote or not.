@@ -1,0 +1,23 @@
+//WAP to check whether a person is eligible to vote or not in C.
+#include <stdio.h>
+int main(){
+	int age;
+	printf("Enter the age of a person:");
+	scanf("%d",&age);
+	if(age>=18){
+		printf("You are eligible to vote.\n");
+	}
+	else printf("You are not eligible to vote.");
+	return 0;	
+}
+
+
+//WAP to check whether a person is eligible to vote or not in C using ternary operators.
+#include <stdio.h>
+int main(){
+	int age;
+	printf("Enter the age of a person:");
+	scanf("%d",&age);
+	(age>=18)?printf("You are eligible to vote.\n"):printf("You are not eligible to vote.\n");
+	return 0;	
+}
