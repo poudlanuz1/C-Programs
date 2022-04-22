@@ -1,0 +1,14 @@
+//WAP to calculate SI in C.
+#include <stdio.h>
+int main(){
+	float Principal,Rate,Time,SI;
+	printf("Enter the principal amount:");
+	scanf("%f",&Principal);
+	printf("Enter the time period in years:");
+	scanf("%f",&Time);
+	printf("Enter the rate of interest:");
+	scanf("%f",&Rate);
+	SI= (Principal*Time*Rate)/100;
+	printf("The Simple Interest is:%.2f",SI);
+	return 0;	
+}
