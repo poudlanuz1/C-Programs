@@ -1,0 +1,12 @@
+//WAP to display sum of two inputed numbers in C.
+#include <stdio.h>
+int main(){
+	int first_num,second_num,sum;
+	printf("Enter a number:");
+	scanf("%d",&first_num);
+	printf("Enter the second number:");
+	scanf("%d",&second_num);
+	sum=first_num + second_num;
+	printf("The sum is:",sum);
+	return 0;	
+}
