@@ -1,0 +1,15 @@
+//WAP to calculate value of (ab^2)/c in C.
+#include <stdio.h>
+int main(){
+	int a,b,c;
+	float output;
+	printf("Enter the value of a:");
+	scanf("%d",&a);
+	printf("Enter the value of b:");
+	scanf("%d",&b);
+	printf("Enter the value of c:");
+	scanf("%d",&c);
+	output=(a*pow(b,2))/c;
+	printf("The Output is:%.2f\n",output);
+	return 0;	
+}
