@@ -1,0 +1,12 @@
+//WAP to calculate Area of Circle in C.
+#include <stdio.h>
+#include <math.h>
+#define Pi 3.14
+int main(){
+	int radius;
+	float area;
+	printf("Enter the radius of circle:");
+	scanf("%d",&radius);
+	area=Pi*pow(radius,2);
+	return 0;	
+}
