@@ -1,0 +1,15 @@
+/* WAP to calculate the net salary of a person such that 10%
+is travel allowance, 12% commission and 13% tax in C. 
+*/
+#include <stdio.h>
+int main(){
+	float salary,net_salary,allowance,commission,tax;
+	printf("Enter the salary of a person:");
+	scanf("%f",&salary);
+	allowance=0.1*salary;
+	commission=0.12*(salary+allowance);
+	tax=0.13*(salary+allowance+commission);
+	net_salary=salary+allowance+commission-tax;
+	printf("The net salary is : %.2f\n",net_salary);
+	return 0;
+}
