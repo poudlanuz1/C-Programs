@@ -1,0 +1,16 @@
+/* WAP to calculate no. of days where no.of years, months and
+days are given by user in C.
+*/
+#include <stdio.h>
+int main(){
+	int days,months,years,total_days;
+	printf("Enter the no. of years:");
+	scanf("%d",&years);
+	printf("Enter the no. of months:");
+	scanf("%d",&months);
+	printf("Enter the no. of days:");
+	scanf("%d",&days);
+	total_days=days+(months*30)+(years*365);
+	printf("The total numbers of days are:%d\n",total_days);
+	return 0;
+}
