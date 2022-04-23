@@ -1,0 +1,15 @@
+// WAP to swap values of a and b in C.
+#include <stdio.h>
+int main(){
+	int a,b,temp;
+	printf("Enter a number:");
+	scanf("%d",&a);
+	printf("Enter second number:");
+	scanf("%d",&b);
+	temp =a;
+	a= b;
+	b=temp;
+	printf("The new swapped value of a is:%d\n",a);
+	printf("The new swapped value of b is:%d\n",b);
+	return 0;
+}
